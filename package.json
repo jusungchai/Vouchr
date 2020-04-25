@@ -10,7 +10,6 @@
   "author": "Jay Chai",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^4.4.1",
-    "cypress-xpath": "^1.4.0"
+    "cypress": "^4.4.1"
   }
 }
