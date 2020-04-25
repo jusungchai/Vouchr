@@ -13,4 +13,4 @@
 - Browser: Chrome version 81
 
 ## A sample run of the demo can be viewed in the link below
-- 
+- https://github.com/jusungchai/Vouchr/blob/master/Vouchr%20Demo.mkv
