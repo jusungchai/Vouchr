@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://static.vouchrsdk.com/stage/discoverdemo",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "chromeWebSecurity": false
+}

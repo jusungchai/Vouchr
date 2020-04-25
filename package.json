@@ -1,0 +1,16 @@
+{
+  "name": "vouchr",
+  "version": "1.0.0",
+  "description": "E2E Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open -P ."
+  },
+  "author": "Jay Chai",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.4.1",
+    "cypress-xpath": "^1.4.0"
+  }
+}
