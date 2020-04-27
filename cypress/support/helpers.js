@@ -42,4 +42,13 @@ const addMedia = (name) => {
   })
 }
 
-module.exports = { updatedDOM, selectCategory, addMedia }
+const deleteMedia = (index) => {
+  updatedDOM('iframe[title=DiscoverApp]', 1000)
+    updatedDOM('iframe[title=DiscoverApp]')
+      .find(`#vouchrAppRoot > div > div:nth-child(1) > div.App_content__3La4L > 
+      div.Preview_PreviewContainer__39hcn > div > div.Preview_ContentContainer__BjrSF > 
+      div:nth-child(${index}) > div > div > 
+      div.Media_ControlsRight__3yZfs > button`).click()
+}
+
+module.exports = { updatedDOM, selectCategory, addMedia, deleteMedia }

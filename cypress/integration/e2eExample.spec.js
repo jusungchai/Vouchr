@@ -1,4 +1,4 @@
-import { updatedDOM, selectCategory, addMedia } from '../support/helpers'
+import { updatedDOM, selectCategory, addMedia, deleteMedia } from '../support/helpers'
 
 describe("Demo E2E", () => {
   //time to wait (change this value depending on DUT spec)
@@ -60,11 +60,7 @@ describe("Demo E2E", () => {
   })
 
   it("Should remove Gif", () => {
-    updatedDOM('iframe[title=DiscoverApp]')
-      .find(`#vouchrAppRoot > div > div:nth-child(1) > div.App_content__3La4L > 
-      div.Preview_PreviewContainer__39hcn > div > div.Preview_ContentContainer__BjrSF > 
-      div:nth-child(10) > div > div.Media_Controls__1zHMA.flex.justify-between.w-full.absolute > 
-      div.Media_ControlsRight__3yZfs > button`).click()
+    deleteMedia(10)
   })
 
   it("Should preview egreetings", () => {
